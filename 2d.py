@@ -62,10 +62,7 @@ def chi_square_test(text: str):
 
 
 def vigenere_decrypt(ciphertext: str, key: str) -> str:
-    """
-        Decrpyt vigenere cipher by using key
-    """
-
+    #Decrypt vigenere cipher by using key
     decrypted_text = ''
     key_length = len(key)
 
